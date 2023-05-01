@@ -72,6 +72,28 @@
         <ownedLinks xsi:type="re:CatalogElementLink" id="bbeb345f-689a-4f6b-a2de-da593b708281"
             source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#9a64daa5-5096-448d-af59-34e07f71f9bd"/>
       </ownedElements>
+      <ownedElements xsi:type="re:CatalogElement" id="93ede47f-d454-4dd0-b335-8bf43c8defc6"
+          name="TankLower" kind="RPL" suffix="Lower" origin="#c9c3c1ac-a3bc-4d40-b135-cd09e32f8a3a"
+          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3d1a8e8c-4445-4618-acbe-098b4d32fbe3"
+            source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#a64137b1-9692-4341-bc03-f575df2edae0"
+            origin="#795b1b99-3b70-4a3d-936f-5d4cdef8b621"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="07e9cfc4-f860-407d-bedf-dfa841465439"
+            source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#e17338bb-d809-4a4a-89fe-411fe6228a7e"
+            origin="#c527d49d-459a-476f-bab7-f9e5a9cdd839"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6d5904df-83b9-4c7b-af40-68f87fecf106"
+            source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#1f60afe6-3f03-42e7-bdf0-07fd3b15d3dc"
+            origin="#bb2b6189-4e16-4805-8e66-a73aba9224e2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a34ad560-f9f0-4038-a060-59a2469e7a91"
+            source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#131dbad9-41ef-4d1b-8ede-cd542f6531e5"
+            origin="#95378bf2-982c-40e2-a632-a74e0acaa49d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="510c215f-89e6-4a02-bb16-b60284f724f1"
+            source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#bc643e61-8c6c-407b-9aa3-1c20502a7eed"
+            origin="#19a9127d-5454-4b77-be47-fc1dcf2ab3e5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="75b0b49c-d9b4-44bb-8587-68d2559fb71e"
+            source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#dd050ad8-a603-4241-857e-e483aa98f5cc"
+            origin="#8a8472b2-3394-45f7-88b7-c66f3d450ec1"/>
+      </ownedElements>
       <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="c387fd05-61c8-4057-bb28-7dd2a852a25d"
           name="Compliancy Definitions">
         <ownedDefinitions xsi:type="re:CompliancyDefinition" id="2deea4d7-6163-4a52-b7bd-a67985ed1da1"
@@ -284,9 +306,22 @@
             name="Physical System" abstractType="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="90bee121-7cda-4731-8579-64760ec4ec2e" name="Physical System">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dd050ad8-a603-4241-857e-e483aa98f5cc"
+              name="Tank" abstractType="#a64137b1-9692-4341-bc03-f575df2edae0"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="2af70af0-136b-47be-9205-0c8100e0392b" targetElement="#7cee7b44-64e4-4171-9fd4-437adc484982"
               sourceElement="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="a64137b1-9692-4341-bc03-f575df2edae0" name="Tank" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="e17338bb-d809-4a4a-89fe-411fe6228a7e" name="Water Inlet"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="1f60afe6-3f03-42e7-bdf0-07fd3b15d3dc" name="Water Outlet"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="131dbad9-41ef-4d1b-8ede-cd542f6531e5" name="Sensor Mount High"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="bc643e61-8c6c-407b-9aa3-1c20502a7eed" name="Sensor Mount Low"/>
+          </ownedPhysicalComponents>
           <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
               id="bac1bb80-3897-46c3-bf51-8125a9e06522" name="General Definitions">
             <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
