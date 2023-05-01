@@ -262,7 +262,29 @@
               </ownedPhysicalComponents>
             </ownedPhysicalComponentPkgs>
             <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
-                id="dfdb9772-a480-4a47-a3c0-9e6da511ad5c" name="Level Sensor"/>
+                id="dfdb9772-a480-4a47-a3c0-9e6da511ad5c" name="Level Sensor">
+              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a64daa5-5096-448d-af59-34e07f71f9bd"
+                  name="Sensor Housing" abstractType="#7bccb9f2-1b0d-41f9-8505-324d68e6dff5"/>
+              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f16646ca-723b-4e77-a61a-584b8a299534"
+                  name="Water Monitoring" abstractType="#3410a111-a876-44a5-8e71-0d3928f313cf"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="7bccb9f2-1b0d-41f9-8505-324d68e6dff5" name="Sensor Housing"
+                  nature="NODE">
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="62627961-2acf-4ba4-a88c-a456219deb46" name="Sensor Mount"
+                    summary="external screw thread"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="8350082c-19a6-4942-b3e5-3b814aef695e" name="Cable Mount"/>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="3410a111-a876-44a5-8e71-0d3928f313cf" name="Water Monitoring"
+                  nature="BEHAVIOR">
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                    id="6cf30348-0ff4-43dd-a6a2-f1858a450044" name="Level Signal"
+                    summary="transmitting 1 or 0 depending on water contact" orientation="OUT"
+                    kind="FLOW"/>
+              </ownedPhysicalComponents>
+            </ownedPhysicalComponentPkgs>
           </ownedPhysicalComponentPkgs>
         </ownedPhysicalComponents>
       </ownedPhysicalComponentPkg>
