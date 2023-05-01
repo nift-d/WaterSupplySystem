@@ -97,12 +97,6 @@
             source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#dd050ad8-a603-4241-857e-e483aa98f5cc"
             origin="#8a8472b2-3394-45f7-88b7-c66f3d450ec1"/>
       </ownedElements>
-      <ownedElements xsi:type="re:CatalogElement" id="75b50951-56b7-48c9-8f37-7f21a33b3e57"
-          name="Level SensorLower" kind="RPL" suffix="Lower" origin="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
-          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1"/>
-      <ownedElements xsi:type="re:CatalogElement" id="d39b6d15-4d43-45bd-9bf4-7e35eac69ccf"
-          name="Level SensorLower" kind="RPL" suffix="Lower" origin="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
-          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1"/>
       <ownedElements xsi:type="re:CatalogElement" id="cbc8d7f5-5f24-4cf1-95eb-112adc669d02"
           name="Level SensorLower" kind="RPL" suffix="Lower" origin="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
           currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
@@ -151,6 +145,59 @@
             source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#89286e6f-686f-47e1-acc5-3cd467265ede"/>
         <ownedLinks xsi:type="re:CatalogElementLink" id="e324d2ae-5445-4e6a-8f03-b980d681b0a5"
             source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#2cd9c3a6-9b26-416e-ac0f-d1c62eeca4b0"/>
+      </ownedElements>
+      <ownedElements xsi:type="re:CatalogElement" id="0e5fc2ef-f05c-424a-be7e-6a2b6201e434"
+          name="Pump" kind="RPL" suffix="" origin="#8d1445b4-ebff-4c35-b297-e60a6c2257fe"
+          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3e671503-b51b-41f0-bf03-91ef1176ff18"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#28c1744b-140a-4a16-be36-97bf420fa60c"
+            origin="#55f5d7f2-da90-4abf-9a28-a01e48e72fb8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c4738dd0-5303-4699-84c2-1d30f6a1edfa"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#c82d794a-fc27-4b55-beb5-f2dc14025015"
+            origin="#0bd27159-d40e-4066-a00a-3e68c76a7825"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="42a156d9-c98e-46ed-b372-8525a4bf5f2f"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#15487534-b97d-44a2-8265-30b46b9a98a1"
+            origin="#fd6c564c-edeb-4af3-87f7-953ad4278cce"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ddb603bf-858a-48f1-a35a-387721f77a81"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#397d5e8e-9efc-44bb-aa52-07e916f6019e"
+            origin="#dd5c6d7c-5eab-4822-b0e4-16e5a54d02f6"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="850ce42a-01bb-4e93-9910-5f3cf76f11f1"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#c076f771-5303-45d4-a585-1d6f9b51c8f8"
+            origin="#ab295e66-bd70-4ab8-bcdd-d47ff5497e46"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1c07a577-c567-40ba-8227-7c0279bdf810"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#b5afa96b-b1a4-41c9-b81b-c6abeb18a79d"
+            origin="#48e7b28c-354f-4268-a0a0-0c5471e680b7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1a19a29a-32d2-4dc2-b3ac-f5d307be0b5b"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#b724d8c5-e96a-4993-9ea8-8d66f23911a8"
+            origin="#0e5d4bfd-f3d9-4f46-9b9f-7ec166c29b2c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="20cfffce-6bda-46de-add2-2ba74ecb1f9d"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#0e6039ae-ac6a-4d20-a283-448bb069fb40"
+            origin="#3eae2569-1514-4095-9c3b-9318705a952b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="66c433e3-4112-4b89-993a-795514cd3bb0"
+            source="#0e5fc2ef-f05c-424a-be7e-6a2b6201e434" target="#bd39dd8b-2e93-49e8-940b-dd5c7149b1e0"
+            origin="#e324d2ae-5445-4e6a-8f03-b980d681b0a5"/>
+      </ownedElements>
+      <ownedElements xsi:type="re:CatalogElement" id="c9fab508-51d3-4348-83eb-e7fc980773ea"
+          name="TankHigher" kind="RPL" suffix="Higher" origin="#c9c3c1ac-a3bc-4d40-b135-cd09e32f8a3a"
+          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9b992c2d-7e07-47bb-9a3d-462b02e70317"
+            source="#c9fab508-51d3-4348-83eb-e7fc980773ea" target="#2ed9ddfb-d66b-4abc-bea8-5068ab0d8773"
+            origin="#795b1b99-3b70-4a3d-936f-5d4cdef8b621"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="de5b5c12-c50a-4761-bc86-7450c7e36fc2"
+            source="#c9fab508-51d3-4348-83eb-e7fc980773ea" target="#3ba0d866-0f53-4a66-bec0-88b33f46ce60"
+            origin="#c527d49d-459a-476f-bab7-f9e5a9cdd839"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5b776e40-53ca-44a2-bae3-f2784240e154"
+            source="#c9fab508-51d3-4348-83eb-e7fc980773ea" target="#32481851-9d74-4663-aa46-8d83a6cc8ca9"
+            origin="#bb2b6189-4e16-4805-8e66-a73aba9224e2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c269c754-6196-4e38-9085-27545f398758"
+            source="#c9fab508-51d3-4348-83eb-e7fc980773ea" target="#e51a2cba-626e-4a41-bb98-cd0e4d3562ff"
+            origin="#95378bf2-982c-40e2-a632-a74e0acaa49d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2ae91990-3e4c-4c23-80de-7250bb4787a7"
+            source="#c9fab508-51d3-4348-83eb-e7fc980773ea" target="#35e0fbec-ec0f-4636-8a1d-b9fd00365c7d"
+            origin="#19a9127d-5454-4b77-be47-fc1dcf2ab3e5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="129544b7-9854-4d18-b1d2-ddbaed55ffcb"
+            source="#c9fab508-51d3-4348-83eb-e7fc980773ea" target="#558eb486-7620-4ac2-824e-ce887f1416d7"
+            origin="#8a8472b2-3394-45f7-88b7-c66f3d450ec1"/>
       </ownedElements>
       <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="c387fd05-61c8-4057-bb28-7dd2a852a25d"
           name="Compliancy Definitions">
@@ -364,6 +411,9 @@
             name="Physical System" abstractType="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="90bee121-7cda-4731-8579-64760ec4ec2e" name="Physical System">
+          <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+              id="50f37ab5-dd6f-4d8c-95ab-2924e40e08ed" name="pressurized water" source="#15487534-b97d-44a2-8265-30b46b9a98a1"
+              target="#7caf448e-a1f9-48c7-ae45-160c255b5c1f" kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dd050ad8-a603-4241-857e-e483aa98f5cc"
               name="Lower Tank" abstractType="#a64137b1-9692-4341-bc03-f575df2edae0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="54af87d9-6891-4ab4-87ca-90e97dfe92a0"
@@ -372,11 +422,33 @@
                 id="c1720203-139b-4f0b-8e28-acb9b04fa429" deployedElement="#76a9f81c-fb25-403d-847e-2e8a9e1c8968"
                 location="#54af87d9-6891-4ab4-87ca-90e97dfe92a0"/>
           </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="397d5e8e-9efc-44bb-aa52-07e916f6019e"
+              name="Pump" abstractType="#b724d8c5-e96a-4993-9ea8-8d66f23911a8">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="b5afa96b-b1a4-41c9-b81b-c6abeb18a79d" deployedElement="#c076f771-5303-45d4-a585-1d6f9b51c8f8"
+                location="#397d5e8e-9efc-44bb-aa52-07e916f6019e"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="558eb486-7620-4ac2-824e-ce887f1416d7"
+              name="Upper Tank" abstractType="#2ed9ddfb-d66b-4abc-bea8-5068ab0d8773">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="7779a278-c1c7-4f4e-b8c6-0044dc436a3c" deployedElement="#a6aa6bb6-03a2-498b-b36f-182b3c818652"
+                location="#558eb486-7620-4ac2-824e-ce887f1416d7"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a6aa6bb6-03a2-498b-b36f-182b3c818652"
+              name="Water Storage" abstractType="#5a765a33-9592-4aad-a13e-a775cf4e7bf6"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="2af70af0-136b-47be-9205-0c8100e0392b" targetElement="#7cee7b44-64e4-4171-9fd4-437adc484982"
               sourceElement="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="ee28235a-4e5c-4c35-b106-b582b8d70bc1" name="Screw connection" linkEnds="#bc643e61-8c6c-407b-9aa3-1c20502a7eed #a90533fd-82b1-458c-b43c-bf290b161add"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="558fe839-76d9-422c-b4ab-a8798170431b" name="Suction Pipe" linkEnds="#1f60afe6-3f03-42e7-bdf0-07fd3b15d3dc #0e6039ae-ac6a-4d20-a283-448bb069fb40"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="d84c51cb-73df-4ea1-b5b3-5af7c74b881a" name="Pressure Pipe" linkEnds="#bd39dd8b-2e93-49e8-940b-dd5c7149b1e0 #3ba0d866-0f53-4a66-bec0-88b33f46ce60">
+            <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
+                id="9a8fd2c2-dba0-49b3-97e7-887c7c8dafe7" targetElement="#50f37ab5-dd6f-4d8c-95ab-2924e40e08ed"
+                sourceElement="#d84c51cb-73df-4ea1-b5b3-5af7c74b881a"/>
+          </ownedPhysicalLinks>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="a64137b1-9692-4341-bc03-f575df2edae0" name="Lower Tank" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -404,6 +476,49 @@
                   id="abffa585-2770-4373-b4e0-9acb883e4b0c" name="Level Signal" summary="transmitting 1 or 0 depending on water contact"
                   orientation="OUT" kind="FLOW"/>
             </ownedPhysicalComponents>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="b724d8c5-e96a-4993-9ea8-8d66f23911a8" name="Pump" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="0e6039ae-ac6a-4d20-a283-448bb069fb40" name="Water Inlet"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="bd39dd8b-2e93-49e8-940b-dd5c7149b1e0" name="Water Outlet">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="79ac0bb5-bb94-446f-a7c6-51b592c54001" targetElement="#15487534-b97d-44a2-8265-30b46b9a98a1"
+                  sourceElement="#bd39dd8b-2e93-49e8-940b-dd5c7149b1e0"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c076f771-5303-45d4-a585-1d6f9b51c8f8"
+                name="Water pumping" abstractType="#28c1744b-140a-4a16-be36-97bf420fa60c"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="28c1744b-140a-4a16-be36-97bf420fa60c" name="Water pumping" nature="BEHAVIOR">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="c82d794a-fc27-4b55-beb5-f2dc14025015" name="Low pressure water"
+                  orientation="IN" kind="FLOW"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="15487534-b97d-44a2-8265-30b46b9a98a1" name="High pressure water"
+                  orientation="OUT" kind="FLOW"/>
+            </ownedPhysicalComponents>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="2ed9ddfb-d66b-4abc-bea8-5068ab0d8773" name="Upper Tank" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="3ba0d866-0f53-4a66-bec0-88b33f46ce60" name="Water Inlet">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="dc5f9fdd-8e84-417d-8a84-1c1220a9cc50" targetElement="#7caf448e-a1f9-48c7-ae45-160c255b5c1f"
+                  sourceElement="#3ba0d866-0f53-4a66-bec0-88b33f46ce60"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="32481851-9d74-4663-aa46-8d83a6cc8ca9" name="Water Outlet"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="e51a2cba-626e-4a41-bb98-cd0e4d3562ff" name="Sensor Mount High"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="35e0fbec-ec0f-4636-8a1d-b9fd00365c7d" name="Sensor Mount Low"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="5a765a33-9592-4aad-a13e-a775cf4e7bf6" name="Water Storage" nature="BEHAVIOR">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="7caf448e-a1f9-48c7-ae45-160c255b5c1f" name="CP 1" orientation="IN"
+                kind="FLOW"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
               id="bac1bb80-3897-46c3-bf51-8125a9e06522" name="General Definitions">
