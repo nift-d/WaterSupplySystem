@@ -240,13 +240,30 @@
             name="Physical System" abstractType="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="90bee121-7cda-4731-8579-64760ec4ec2e" name="Physical System">
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8824ef0d-5899-4e37-b3bf-df716cf9e9a8"
-              name="Tank" abstractType="#9d83b3b5-433a-4e26-a696-43afaaccf0f1"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="2af70af0-136b-47be-9205-0c8100e0392b" targetElement="#7cee7b44-64e4-4171-9fd4-437adc484982"
               sourceElement="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
-          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="9d83b3b5-433a-4e26-a696-43afaaccf0f1" name="Tank" nature="NODE"/>
+          <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+              id="bac1bb80-3897-46c3-bf51-8125a9e06522" name="General Definitions">
+            <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+                id="3898d7ad-9e1f-4c1b-aed8-a00390a87d05" name="Tank">
+              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8824ef0d-5899-4e37-b3bf-df716cf9e9a8"
+                  name="Tank" abstractType="#9d83b3b5-433a-4e26-a696-43afaaccf0f1"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="9d83b3b5-433a-4e26-a696-43afaaccf0f1" name="Tank" nature="NODE">
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="6f1abb6b-9a65-40bd-a77d-0d0cacc6e91f" name="Water Inlet"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="2e735945-37f5-45e6-a636-de3a9f30808b" name="Water Outlet"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="721d77da-7373-425d-93e9-07b4a9fbf727" name="Sensor Mount High"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="bf9c6d5e-59d0-436f-b3b8-6d8aff422845" name="Sensor Mount Low"/>
+              </ownedPhysicalComponents>
+            </ownedPhysicalComponentPkgs>
+            <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+                id="dfdb9772-a480-4a47-a3c0-9e6da511ad5c" name="Level Sensor"/>
+          </ownedPhysicalComponentPkgs>
         </ownedPhysicalComponents>
       </ownedPhysicalComponentPkg>
       <ownedLogicalArchitectureRealizations xsi:type="org.polarsys.capella.core.data.pa:LogicalArchitectureRealization"
