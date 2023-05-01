@@ -16,6 +16,7 @@
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa.deployment="http://www.polarsys.org/capella/core/pa/deployment/6.0.0"
     xmlns:re="http://www.polarsys.org/capella/common/re/6.0.0" id="233f1776-0147-4955-ae16-7d95dd1f5e02"
     name="WaterSupplySystem">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="a2178c57-1395-42f5-833c-ab74bbd964a8"/>
@@ -57,20 +58,22 @@
       </ownedElements>
       <ownedElements xsi:type="re:CatalogElement" id="f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
           name="Level Sensor" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
-        <ownedLinks xsi:type="re:CatalogElementLink" id="362411f8-4c14-4e92-aa4d-06d6d3fe2786"
-            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#3410a111-a876-44a5-8e71-0d3928f313cf"/>
-        <ownedLinks xsi:type="re:CatalogElementLink" id="b3c02a6c-6c5a-4345-ae8e-fd60e9b28574"
-            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#6cf30348-0ff4-43dd-a6a2-f1858a450044"/>
         <ownedLinks xsi:type="re:CatalogElementLink" id="e693fea3-c2c5-45a6-86e6-7c3429247740"
             source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#7bccb9f2-1b0d-41f9-8505-324d68e6dff5"/>
         <ownedLinks xsi:type="re:CatalogElementLink" id="f21d292d-0dab-415e-a535-c8a2f7e54342"
             source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#62627961-2acf-4ba4-a88c-a456219deb46"/>
         <ownedLinks xsi:type="re:CatalogElementLink" id="332b0b52-44eb-4d11-8121-8549ed3b20fb"
             source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#8350082c-19a6-4942-b3e5-3b814aef695e"/>
-        <ownedLinks xsi:type="re:CatalogElementLink" id="8ea3f92c-911f-4aac-8d9d-07d61969981b"
-            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#f16646ca-723b-4e77-a61a-584b8a299534"/>
         <ownedLinks xsi:type="re:CatalogElementLink" id="bbeb345f-689a-4f6b-a2de-da593b708281"
             source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#9a64daa5-5096-448d-af59-34e07f71f9bd"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1d3dac65-f874-4993-9438-b9bdfb9af136"
+            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#8b718818-5a2a-4f6a-bd3e-a17426b2fd08"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ceecab01-0a00-4776-a166-ae136810f2b7"
+            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#85b3e820-c47b-44ee-b46b-95a0d600edd9"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1e09c67f-73b6-440e-8d8f-6bc4ae63d099"
+            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#9644fb32-d636-4381-9f8b-fe7351d5e2a6"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f2d18704-dad0-45f9-afc8-56c9c7407e54"
+            source="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61" target="#0a720e5d-ba95-469a-a6f4-f47e50e5f8fe"/>
       </ownedElements>
       <ownedElements xsi:type="re:CatalogElement" id="93ede47f-d454-4dd0-b335-8bf43c8defc6"
           name="TankLower" kind="RPL" suffix="Lower" origin="#c9c3c1ac-a3bc-4d40-b135-cd09e32f8a3a"
@@ -93,6 +96,61 @@
         <ownedLinks xsi:type="re:CatalogElementLink" id="75b0b49c-d9b4-44bb-8587-68d2559fb71e"
             source="#93ede47f-d454-4dd0-b335-8bf43c8defc6" target="#dd050ad8-a603-4241-857e-e483aa98f5cc"
             origin="#8a8472b2-3394-45f7-88b7-c66f3d450ec1"/>
+      </ownedElements>
+      <ownedElements xsi:type="re:CatalogElement" id="75b50951-56b7-48c9-8f37-7f21a33b3e57"
+          name="Level SensorLower" kind="RPL" suffix="Lower" origin="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
+          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1"/>
+      <ownedElements xsi:type="re:CatalogElement" id="d39b6d15-4d43-45bd-9bf4-7e35eac69ccf"
+          name="Level SensorLower" kind="RPL" suffix="Lower" origin="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
+          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1"/>
+      <ownedElements xsi:type="re:CatalogElement" id="cbc8d7f5-5f24-4cf1-95eb-112adc669d02"
+          name="Level SensorLower" kind="RPL" suffix="Lower" origin="#f490bf3f-d5c5-4fb8-b372-be976ebb6b61"
+          currentCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="72a4dc22-1269-48e1-ad47-3d2d770db49f"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#a1dce5e5-a13d-4b24-8b9b-3cfe1b89f1c2"
+            origin="#e693fea3-c2c5-45a6-86e6-7c3429247740"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b3b94252-035a-42d7-a9b5-6a92dc17a843"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#a90533fd-82b1-458c-b43c-bf290b161add"
+            origin="#f21d292d-0dab-415e-a535-c8a2f7e54342"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fc418e67-fd2d-4d98-a6e2-6ba2b30891b9"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#a91b92ad-e84a-466f-9605-2958dd00568d"
+            origin="#332b0b52-44eb-4d11-8121-8549ed3b20fb"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b65cecf6-d334-40a4-bbfa-bf6b61236ebc"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#54af87d9-6891-4ab4-87ca-90e97dfe92a0"
+            origin="#bbeb345f-689a-4f6b-a2de-da593b708281"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="21af3052-bbfa-4c76-924f-e38fc69e81e7"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#d0a20ad0-09c1-44c3-833f-e35aa2869a2b"
+            origin="#1d3dac65-f874-4993-9438-b9bdfb9af136"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="68801090-b35d-49af-b49d-23b8e14057b5"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#abffa585-2770-4373-b4e0-9acb883e4b0c"
+            origin="#ceecab01-0a00-4776-a166-ae136810f2b7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9e5e92e1-4431-41a2-9ba6-a4668cde17c4"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#76a9f81c-fb25-403d-847e-2e8a9e1c8968"
+            origin="#1e09c67f-73b6-440e-8d8f-6bc4ae63d099"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="615e8789-24fe-4c18-974d-f657360ea07f"
+            source="#cbc8d7f5-5f24-4cf1-95eb-112adc669d02" target="#c1720203-139b-4f0b-8e28-acb9b04fa429"
+            origin="#f2d18704-dad0-45f9-afc8-56c9c7407e54"/>
+      </ownedElements>
+      <ownedElements xsi:type="re:CatalogElement" id="8d1445b4-ebff-4c35-b297-e60a6c2257fe"
+          name="Pump" defaultReplicaCompliancy="#2deea4d7-6163-4a52-b7bd-a67985ed1da1">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="55f5d7f2-da90-4abf-9a28-a01e48e72fb8"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#75891706-1407-4edc-9bf6-8d830b0f3626"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0bd27159-d40e-4066-a00a-3e68c76a7825"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#e8b8e49a-0552-4e68-8700-0e529688e52e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fd6c564c-edeb-4af3-87f7-953ad4278cce"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#7b76426e-ebff-4d04-b060-c905435d3dac"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="dd5c6d7c-5eab-4822-b0e4-16e5a54d02f6"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#df89a8ef-5937-4f2c-bdf1-abbdfeb2099e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ab295e66-bd70-4ab8-bcdd-d47ff5497e46"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#094f0880-28e8-4cf5-8937-37e47c037fa6"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="48e7b28c-354f-4268-a0a0-0c5471e680b7"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#5a9d6c6d-db95-4072-877b-9fe1e615bdbc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0e5d4bfd-f3d9-4f46-9b9f-7ec166c29b2c"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#e7ec264c-8905-45df-8446-1e253e808fb0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3eae2569-1514-4095-9c3b-9318705a952b"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#89286e6f-686f-47e1-acc5-3cd467265ede"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e324d2ae-5445-4e6a-8f03-b980d681b0a5"
+            source="#8d1445b4-ebff-4c35-b297-e60a6c2257fe" target="#2cd9c3a6-9b26-416e-ac0f-d1c62eeca4b0"/>
       </ownedElements>
       <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="c387fd05-61c8-4057-bb28-7dd2a852a25d"
           name="Compliancy Definitions">
@@ -307,12 +365,20 @@
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="90bee121-7cda-4731-8579-64760ec4ec2e" name="Physical System">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dd050ad8-a603-4241-857e-e483aa98f5cc"
-              name="Tank" abstractType="#a64137b1-9692-4341-bc03-f575df2edae0"/>
+              name="Lower Tank" abstractType="#a64137b1-9692-4341-bc03-f575df2edae0"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="54af87d9-6891-4ab4-87ca-90e97dfe92a0"
+              name="Level Sensor" abstractType="#a1dce5e5-a13d-4b24-8b9b-3cfe1b89f1c2">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="c1720203-139b-4f0b-8e28-acb9b04fa429" deployedElement="#76a9f81c-fb25-403d-847e-2e8a9e1c8968"
+                location="#54af87d9-6891-4ab4-87ca-90e97dfe92a0"/>
+          </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="2af70af0-136b-47be-9205-0c8100e0392b" targetElement="#7cee7b44-64e4-4171-9fd4-437adc484982"
               sourceElement="#90bee121-7cda-4731-8579-64760ec4ec2e"/>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="ee28235a-4e5c-4c35-b106-b582b8d70bc1" name="Screw connection" linkEnds="#bc643e61-8c6c-407b-9aa3-1c20502a7eed #a90533fd-82b1-458c-b43c-bf290b161add"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="a64137b1-9692-4341-bc03-f575df2edae0" name="Tank" nature="NODE">
+              id="a64137b1-9692-4341-bc03-f575df2edae0" name="Lower Tank" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="e17338bb-d809-4a4a-89fe-411fe6228a7e" name="Water Inlet"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -321,6 +387,23 @@
                 id="131dbad9-41ef-4d1b-8ede-cd542f6531e5" name="Sensor Mount High"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="bc643e61-8c6c-407b-9aa3-1c20502a7eed" name="Sensor Mount Low"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="a1dce5e5-a13d-4b24-8b9b-3cfe1b89f1c2" summary="Sensor Housing" name="Level Sensor"
+              nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="a90533fd-82b1-458c-b43c-bf290b161add" name="Sensor Mount" summary="external screw thread"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="a91b92ad-e84a-466f-9605-2958dd00568d" name="Cable Mount"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="76a9f81c-fb25-403d-847e-2e8a9e1c8968"
+                name="Level Monitoring" abstractType="#d0a20ad0-09c1-44c3-833f-e35aa2869a2b"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="d0a20ad0-09c1-44c3-833f-e35aa2869a2b" name="Level Monitoring"
+                nature="BEHAVIOR">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                  id="abffa585-2770-4373-b4e0-9acb883e4b0c" name="Level Signal" summary="transmitting 1 or 0 depending on water contact"
+                  orientation="OUT" kind="FLOW"/>
+            </ownedPhysicalComponents>
           </ownedPhysicalComponents>
           <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
               id="bac1bb80-3897-46c3-bf51-8125a9e06522" name="General Definitions">
@@ -343,12 +426,16 @@
             <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
                 id="dfdb9772-a480-4a47-a3c0-9e6da511ad5c" name="Level Sensor">
               <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a64daa5-5096-448d-af59-34e07f71f9bd"
-                  name="Sensor Housing" abstractType="#7bccb9f2-1b0d-41f9-8505-324d68e6dff5"/>
-              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f16646ca-723b-4e77-a61a-584b8a299534"
-                  name="Water Monitoring" abstractType="#3410a111-a876-44a5-8e71-0d3928f313cf"/>
+                  name="Level Sensor" abstractType="#7bccb9f2-1b0d-41f9-8505-324d68e6dff5">
+                <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                    id="0a720e5d-ba95-469a-a6f4-f47e50e5f8fe" deployedElement="#9644fb32-d636-4381-9f8b-fe7351d5e2a6"
+                    location="#9a64daa5-5096-448d-af59-34e07f71f9bd"/>
+              </ownedParts>
+              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9644fb32-d636-4381-9f8b-fe7351d5e2a6"
+                  name="Level Monitoring" abstractType="#8b718818-5a2a-4f6a-bd3e-a17426b2fd08"/>
               <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                  id="7bccb9f2-1b0d-41f9-8505-324d68e6dff5" name="Sensor Housing"
-                  nature="NODE">
+                  id="7bccb9f2-1b0d-41f9-8505-324d68e6dff5" summary="Sensor Housing"
+                  name="Level Sensor" nature="NODE">
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                     id="62627961-2acf-4ba4-a88c-a456219deb46" name="Sensor Mount"
                     summary="external screw thread"/>
@@ -356,12 +443,39 @@
                     id="8350082c-19a6-4942-b3e5-3b814aef695e" name="Cable Mount"/>
               </ownedPhysicalComponents>
               <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                  id="3410a111-a876-44a5-8e71-0d3928f313cf" name="Water Monitoring"
+                  id="8b718818-5a2a-4f6a-bd3e-a17426b2fd08" name="Level Monitoring"
                   nature="BEHAVIOR">
                 <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                    id="6cf30348-0ff4-43dd-a6a2-f1858a450044" name="Level Signal"
+                    id="85b3e820-c47b-44ee-b46b-95a0d600edd9" name="Level Signal"
                     summary="transmitting 1 or 0 depending on water contact" orientation="OUT"
                     kind="FLOW"/>
+              </ownedPhysicalComponents>
+            </ownedPhysicalComponentPkgs>
+            <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+                id="473af3c0-e8e0-442f-b80c-64e025643c2a" name="Pump">
+              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="df89a8ef-5937-4f2c-bdf1-abbdfeb2099e"
+                  name="Pump" abstractType="#e7ec264c-8905-45df-8446-1e253e808fb0">
+                <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                    id="5a9d6c6d-db95-4072-877b-9fe1e615bdbc" deployedElement="#094f0880-28e8-4cf5-8937-37e47c037fa6"
+                    location="#df89a8ef-5937-4f2c-bdf1-abbdfeb2099e"/>
+              </ownedParts>
+              <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="094f0880-28e8-4cf5-8937-37e47c037fa6"
+                  name="Water pumping" abstractType="#75891706-1407-4edc-9bf6-8d830b0f3626"/>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="e7ec264c-8905-45df-8446-1e253e808fb0" name="Pump" nature="NODE">
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="89286e6f-686f-47e1-acc5-3cd467265ede" name="Water Inlet"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                    id="2cd9c3a6-9b26-416e-ac0f-d1c62eeca4b0" name="Water Outlet"/>
+              </ownedPhysicalComponents>
+              <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                  id="75891706-1407-4edc-9bf6-8d830b0f3626" name="Water pumping" nature="BEHAVIOR">
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                    id="e8b8e49a-0552-4e68-8700-0e529688e52e" name="Low pressure water"
+                    orientation="IN" kind="FLOW"/>
+                <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                    id="7b76426e-ebff-4d04-b060-c905435d3dac" name="High pressure water"
+                    orientation="OUT" kind="FLOW"/>
               </ownedPhysicalComponents>
             </ownedPhysicalComponentPkgs>
           </ownedPhysicalComponentPkgs>
